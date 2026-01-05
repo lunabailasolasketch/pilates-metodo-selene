@@ -8,6 +8,7 @@ body { margin:0; font-family: Arial, sans-serif; color:#333; scroll-behavior: sm
 .hero::after { content:""; position:absolute; inset:0; background:rgba(0,0,0,0.5); }
 .hero-content { position:relative; color:white; max-width:700px; padding:20px; }
 .hero-content h1 { font-size:48px; margin:0; }
+}
 
 .whatsapp-btn {
   background: #25D366;
