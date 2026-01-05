@@ -9,10 +9,9 @@ body { margin:0; font-family: Arial, sans-serif; color:#333; scroll-behavior: sm
 .hero-content { position:relative; color:white; max-width:700px; padding:20px; }
 .hero-content h1 { font-size:48px; margin:0; }
 
-.buttons { display:flex; flex-wrap:wrap; gap:15px; justify-content:center; margin-top:20px; }
-
 .btn { 
   display:inline-block; 
+  margin-top:20px; 
   padding:12px 28px; 
   border-radius:30px; 
   background:white; 
@@ -20,15 +19,6 @@ body { margin:0; font-family: Arial, sans-serif; color:#333; scroll-behavior: sm
   text-decoration:none; 
   font-size:16px; 
   cursor:pointer;
-  font-weight:bold;
-}
-
-.whatsapp-btn {
-  background: #25D366;
-  color: white;
-}
-.whatsapp-btn:hover {
-  background: #1ebe57;
 }
 
 section { padding:60px 20px; max-width:1000px; margin:auto; }
